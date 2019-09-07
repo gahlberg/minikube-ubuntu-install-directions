@@ -6,8 +6,8 @@ Directions to install Minikube on Ubuntu 18.04
 Directions to install and run Minikube!
 
 1.	Update Ubuntu dependencies:
-	sudo apt-get update
-	sudo apt-get install -y apt-transport-https
+    	sudo apt-get update
+    	sudo apt-get install -y apt-transport-https
 
 2.	Install VirtualBox on Ubuntu:
 •	sudo apt-get install -y virtualbox virtualbox-ext-pack
