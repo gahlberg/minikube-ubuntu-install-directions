@@ -9,20 +9,20 @@ Directions to install and run Minikube!
 
 1.	Update Ubuntu dependencies:
 
-	sudo apt-get update
+		sudo apt-get update
     
-	sudo apt-get install -y apt-transport-https
+		sudo apt-get install -y apt-transport-https
 
 2.	Install VirtualBox on Ubuntu:
-•	sudo apt-get install -y virtualbox virtualbox-ext-pack
+		sudo apt-get install -y virtualbox virtualbox-ext-pack
 
 3.	Install latest Docker:
-•	sudo apt-get install -y docker.io
+		sudo apt-get install -y docker.io
 
 4.	Install kubectl binary with curl on Linux
 
-•	Download the latest release with the command:
-•	curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+		Download the latest release with the command:
+			curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s 			https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
 
 (To download a specific version, replace the $(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt) portion of the command with the specific version.
 
