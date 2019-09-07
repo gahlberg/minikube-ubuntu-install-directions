@@ -50,26 +50,33 @@ Directions to install and run Minikube!
 
 5.	Install Minikube:
 
-curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
-&& chmod +x minikube
+		curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
+		&& chmod +x minikube
 
 6.	Add the Minikube executable to your path:
-•	sudo install minikube /usr/local/bin
+
+		sudo install minikube /usr/local/bin
 
 7.	Launch Minikube:
-•	minikube start
+
+		minikube start
 
 8.	To access externally from your LAN run the following command on the machine locally:
-•	kubectl proxy --address='0.0.0.0' --disable-filter=true
 
-•	& should be able to access via:
-http://IP_Address_of_your_machine:8001/api/v1/namespaces/kube-system/services/http:kubernetes-dashboard:/proxy/
+		kubectl proxy --address='0.0.0.0' --disable-filter=true
+
+	& should be able to access via:
+	
+		http://IP_Address_of_your_machine:8001/api/v1/namespaces/kube-system/services/http:kubernetes-dashboard:/proxy/
 
 9.	Optional - locally launch on your machine:
-•	minikube dashboard
+
+		minikube dashboard
 
 10.	Stop minikube:
-•	minikube stop
+
+		minikube stop
 
 11.	Delete instance
-•	minikube delete
+
+		minikube delete
